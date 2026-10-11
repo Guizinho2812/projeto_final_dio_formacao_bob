@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.coverage
+.pytest_cache/
+
+# Node.js
+node_modules/
+projeto_final_dio_formacao_bob/dio_explorer/mcp/build/
+projeto_final_dio_formacao_bob/dio_explorer/mcp/.env
+
+# Bob internals
+.bob/mcp.json

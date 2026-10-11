@@ -1,0 +1,242 @@
+{
+  "trilhas": [
+    {
+      "tecnologia": "javascript",
+      "aliases": ["js", "javascript"],
+      "descricao": "Do zero ao avançado em JavaScript moderno",
+      "duracao_estimada": "12 semanas",
+      "modulos": [
+        {
+          "numero": 1,
+          "titulo": "Fundamentos do JavaScript",
+          "topicos": ["Variáveis e tipos de dados", "Operadores e expressões", "Estruturas condicionais", "Laços de repetição"],
+          "duracao": "1 semana"
+        },
+        {
+          "numero": 2,
+          "titulo": "Funções e Escopo",
+          "topicos": ["Declaração de funções", "Arrow functions", "Closures", "Hoisting"],
+          "duracao": "1 semana"
+        },
+        {
+          "numero": 3,
+          "titulo": "Arrays e Objetos",
+          "topicos": ["Métodos de array (map, filter, reduce)", "Destructuring", "Spread/Rest", "Objetos e protótipos"],
+          "duracao": "1 semana"
+        },
+        {
+          "numero": 4,
+          "titulo": "Programação Assíncrona",
+          "topicos": ["Callbacks", "Promises", "Async/Await", "Event Loop"],
+          "duracao": "2 semanas"
+        },
+        {
+          "numero": 5,
+          "titulo": "DOM e Browser APIs",
+          "topicos": ["Manipulação do DOM", "Eventos", "Fetch API", "LocalStorage"],
+          "duracao": "1 semana"
+        },
+        {
+          "numero": 6,
+          "titulo": "ES6+ e Módulos",
+          "topicos": ["Módulos ES6", "Classes", "Generators", "Symbols"],
+          "duracao": "1 semana"
+        },
+        {
+          "numero": 7,
+          "titulo": "Testes e Boas Práticas",
+          "topicos": ["Unit testing com Jest", "TDD", "Clean Code", "Debugging"],
+          "duracao": "2 semanas"
+        },
+        {
+          "numero": 8,
+          "titulo": "Projeto Final",
+          "topicos": ["Desenvolvimento de aplicação completa", "Code review", "Deploy", "Documentação"],
+          "duracao": "3 semanas"
+        }
+      ]
+    },
+    {
+      "tecnologia": "python",
+      "aliases": ["py", "python"],
+      "descricao": "Python do básico ao desenvolvimento profissional",
+      "duracao_estimada": "10 semanas",
+      "modulos": [
+        {
+          "numero": 1,
+          "titulo": "Introdução ao Python",
+          "topicos": ["Instalação e ambiente", "Tipos primitivos", "Variáveis e operadores", "Input/Output"],
+          "duracao": "1 semana"
+        },
+        {
+          "numero": 2,
+          "titulo": "Estruturas de Controle",
+          "topicos": ["if/elif/else", "for/while", "break/continue", "Compreensão de listas"],
+          "duracao": "1 semana"
+        },
+        {
+          "numero": 3,
+          "titulo": "Funções e Módulos",
+          "topicos": ["Definição de funções", "Parâmetros e retorno", "Módulos e pacotes", "Lambda"],
+          "duracao": "1 semana"
+        },
+        {
+          "numero": 4,
+          "titulo": "Estruturas de Dados",
+          "topicos": ["Listas e tuplas", "Dicionários e sets", "Pilhas e filas", "Algoritmos de busca"],
+          "duracao": "2 semanas"
+        },
+        {
+          "numero": 5,
+          "titulo": "Orientação a Objetos",
+          "topicos": ["Classes e objetos", "Herança e polimorfismo", "Encapsulamento", "Dunder methods"],
+          "duracao": "2 semanas"
+        },
+        {
+          "numero": 6,
+          "titulo": "Manipulação de Arquivos e APIs",
+          "topicos": ["Leitura/escrita de arquivos", "JSON e CSV", "Requests HTTP", "Tratamento de exceções"],
+          "duracao": "1 semana"
+        },
+        {
+          "numero": 7,
+          "titulo": "Projeto Final",
+          "topicos": ["Aplicação CLI ou Web", "Testes com pytest", "Documentação", "Publicação no PyPI"],
+          "duracao": "2 semanas"
+        }
+      ]
+    },
+    {
+      "tecnologia": "typescript",
+      "aliases": ["ts", "typescript"],
+      "descricao": "TypeScript para desenvolvimento escalável e seguro",
+      "duracao_estimada": "8 semanas",
+      "modulos": [
+        {
+          "numero": 1,
+          "titulo": "Introdução ao TypeScript",
+          "topicos": ["Configuração do tsconfig", "Tipos básicos", "Type inference", "Strict mode"],
+          "duracao": "1 semana"
+        },
+        {
+          "numero": 2,
+          "titulo": "Tipos Avançados",
+          "topicos": ["Union e Intersection types", "Type aliases", "Interfaces", "Generics"],
+          "duracao": "2 semanas"
+        },
+        {
+          "numero": 3,
+          "titulo": "Classes e Decorators",
+          "topicos": ["Classes com tipos", "Access modifiers", "Abstract classes", "Decorators"],
+          "duracao": "1 semana"
+        },
+        {
+          "numero": 4,
+          "titulo": "Módulos e Namespaces",
+          "topicos": ["ES Modules com TypeScript", "Declaration merging", "Ambient types", "DefinitelyTyped"],
+          "duracao": "1 semana"
+        },
+        {
+          "numero": 5,
+          "titulo": "TypeScript com Frameworks",
+          "topicos": ["TypeScript + React", "TypeScript + Node.js", "TypeScript + Express", "Testes tipados"],
+          "duracao": "2 semanas"
+        },
+        {
+          "numero": 6,
+          "titulo": "Projeto Final",
+          "topicos": ["API REST tipada", "Frontend com TypeScript", "Testes e CI/CD", "Code review"],
+          "duracao": "1 semana"
+        }
+      ]
+    },
+    {
+      "tecnologia": "react",
+      "aliases": ["react", "reactjs"],
+      "descricao": "React moderno com hooks, context e ecossistema completo",
+      "duracao_estimada": "10 semanas",
+      "modulos": [
+        {
+          "numero": 1,
+          "titulo": "Fundamentos do React",
+          "topicos": ["JSX", "Componentes funcionais", "Props e state", "Renderização condicional"],
+          "duracao": "2 semanas"
+        },
+        {
+          "numero": 2,
+          "titulo": "Hooks Essenciais",
+          "topicos": ["useState", "useEffect", "useRef", "useContext"],
+          "duracao": "2 semanas"
+        },
+        {
+          "numero": 3,
+          "titulo": "Gerenciamento de Estado",
+          "topicos": ["Context API", "useReducer", "Zustand", "React Query"],
+          "duracao": "2 semanas"
+        },
+        {
+          "numero": 4,
+          "titulo": "Roteamento e Formulários",
+          "topicos": ["React Router v6", "React Hook Form", "Validação com Zod", "SPA patterns"],
+          "duracao": "1 semana"
+        },
+        {
+          "numero": 5,
+          "titulo": "Performance e Otimização",
+          "topicos": ["useMemo e useCallback", "React.memo", "Code splitting", "Lazy loading"],
+          "duracao": "1 semana"
+        },
+        {
+          "numero": 6,
+          "titulo": "Testes e Deploy",
+          "topicos": ["Testing Library", "Vitest", "Deploy na Vercel/Netlify", "CI/CD"],
+          "duracao": "2 semanas"
+        }
+      ]
+    },
+    {
+      "tecnologia": "node",
+      "aliases": ["node", "nodejs", "node.js"],
+      "descricao": "Node.js para desenvolvimento backend e APIs REST",
+      "duracao_estimada": "10 semanas",
+      "modulos": [
+        {
+          "numero": 1,
+          "titulo": "Fundamentos do Node.js",
+          "topicos": ["Event loop", "Módulos CommonJS/ESM", "npm e package.json", "File system"],
+          "duracao": "1 semana"
+        },
+        {
+          "numero": 2,
+          "titulo": "HTTP e Express",
+          "topicos": ["Módulo http nativo", "Express.js", "Middlewares", "Roteamento"],
+          "duracao": "2 semanas"
+        },
+        {
+          "numero": 3,
+          "titulo": "Banco de Dados",
+          "topicos": ["PostgreSQL com Prisma", "MongoDB com Mongoose", "Migrations", "Relacionamentos"],
+          "duracao": "2 semanas"
+        },
+        {
+          "numero": 4,
+          "titulo": "Autenticação e Segurança",
+          "topicos": ["JWT", "bcrypt", "OAuth 2.0", "Helmet e CORS"],
+          "duracao": "2 semanas"
+        },
+        {
+          "numero": 5,
+          "titulo": "Arquitetura e Boas Práticas",
+          "topicos": ["MVC", "Clean Architecture", "Variáveis de ambiente", "Logging com Winston"],
+          "duracao": "1 semana"
+        },
+        {
+          "numero": 6,
+          "titulo": "Deploy e DevOps",
+          "topicos": ["Docker", "CI/CD com GitHub Actions", "Deploy na AWS/Railway", "Monitoramento"],
+          "duracao": "2 semanas"
+        }
+      ]
+    }
+  ]
+}
