@@ -1,0 +1,86 @@
+﻿================================================================================
+  RELATÓRIO DE TESTES UNITÁRIOS — SLASH COMMANDS DIO
+  Aluno de referência: Carlos Alves  |  Trilha: Java
+  Data/Hora de execução: 11/10/2026 18:58:12
+  Ambiente: Python 3.11.9 / pytest 9.1.1 / pytest-cov 7.1.0
+  Plataforma: Windows 10 (win32)
+================================================================================
+============================= test session starts =============================
+platform win32 -- Python 3.11.9, pytest-9.1.1, pluggy-1.6.0 -- C:\Users\Simon\AppData\Local\Microsoft\WindowsApps\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\Simon\.bob\playground
+plugins: cov-7.1.0
+collecting ... collected 61 items
+
+tests/test_slash_commands.py::TestTrilhaBuscaJava::test_buscar_trilha_java_exata PASSED [  1%]
+tests/test_slash_commands.py::TestTrilhaBuscaJava::test_buscar_trilha_java_case_insensitive PASSED [  3%]
+tests/test_slash_commands.py::TestTrilhaBuscaJava::test_buscar_trilha_java_parcial PASSED [  4%]
+tests/test_slash_commands.py::TestTrilhaBuscaJava::test_trilha_java_tem_campos_obrigatorios PASSED [  6%]
+tests/test_slash_commands.py::TestTrilhaBuscaJava::test_trilha_java_nivel_intermediario PASSED [  8%]
+tests/test_slash_commands.py::TestTrilhaBuscaJava::test_trilha_java_modulos_maior_zero PASSED [  9%]
+tests/test_slash_commands.py::TestTrilhaBuscaJava::test_trilha_java_xp_total_positivo PASSED [ 11%]
+tests/test_slash_commands.py::TestTrilhaBuscaJava::test_trilha_java_badges_nao_vazios PASSED [ 13%]
+tests/test_slash_commands.py::TestTrilhaBuscaGeneral::test_tecnologia_inexistente_retorna_none PASSED [ 14%]
+tests/test_slash_commands.py::TestTrilhaBuscaGeneral::test_tecnologia_vazia_retorna_none PASSED [ 16%]
+tests/test_slash_commands.py::TestTrilhaBuscaGeneral::test_listar_tecnologias_retorna_lista PASSED [ 18%]
+tests/test_slash_commands.py::TestTrilhaBuscaGeneral::test_listar_tecnologias_contem_java PASSED [ 19%]
+tests/test_slash_commands.py::TestTrilhaBuscaGeneral::test_buscar_python PASSED [ 21%]
+tests/test_slash_commands.py::TestTrilhaBuscaGeneral::test_buscar_react PASSED [ 22%]
+tests/test_slash_commands.py::TestTrilhaBuscaGeneral::test_arquivo_json_existe PASSED [ 24%]
+tests/test_slash_commands.py::TestTrilhaBuscaGeneral::test_arquivo_json_valido PASSED [ 26%]
+tests/test_slash_commands.py::TestTrilhaBuscaGeneral::test_load_json_arquivo_inexistente PASSED [ 27%]
+tests/test_slash_commands.py::TestTrilhaFormatacao::test_formatar_plano_retorna_string PASSED [ 29%]
+tests/test_slash_commands.py::TestTrilhaFormatacao::test_formatar_plano_contem_nome PASSED [ 31%]
+tests/test_slash_commands.py::TestTrilhaFormatacao::test_formatar_plano_contem_nivel PASSED [ 32%]
+tests/test_slash_commands.py::TestTrilhaFormatacao::test_formatar_plano_contem_xp PASSED [ 34%]
+tests/test_slash_commands.py::TestTrilhaFormatacao::test_formatar_plano_contem_badges PASSED [ 36%]
+tests/test_slash_commands.py::TestTrilhaFormatacao::test_formatar_plano_sem_promocao PASSED [ 37%]
+tests/test_slash_commands.py::TestTrilhaFormatacao::test_formatar_plano_none_retorna_erro PASSED [ 39%]
+tests/test_slash_commands.py::TestTrilhaFormatacao::test_formatar_plano_contem_lives PASSED [ 40%]
+tests/test_slash_commands.py::TestDesafioJava::test_gerar_desafio_java_intermediario PASSED [ 42%]
+tests/test_slash_commands.py::TestDesafioJava::test_desafio_contem_tecnologia PASSED [ 44%]
+tests/test_slash_commands.py::TestDesafioJava::test_desafio_contem_nivel PASSED [ 45%]
+tests/test_slash_commands.py::TestDesafioJava::test_desafio_contem_xp PASSED [ 47%]
+tests/test_slash_commands.py::TestDesafioJava::test_desafio_contem_tempo PASSED [ 49%]
+tests/test_slash_commands.py::TestDesafioJava::test_desafio_contem_criterios_aceite PASSED [ 50%]
+tests/test_slash_commands.py::TestDesafioJava::test_desafio_seed_determinisico PASSED [ 52%]
+tests/test_slash_commands.py::TestDesafioJava::test_desafio_seeds_diferentes_podem_divergir PASSED [ 54%]
+tests/test_slash_commands.py::TestDesafioNiveis::test_nivel_basico_xp_500 PASSED [ 55%]
+tests/test_slash_commands.py::TestDesafioNiveis::test_nivel_avancado_xp_2500 PASSED [ 57%]
+tests/test_slash_commands.py::TestDesafioNiveis::test_nivel_avancado_tempo_2h PASSED [ 59%]
+tests/test_slash_commands.py::TestDesafioNiveis::test_nivel_invalido_retorna_erro PASSED [ 60%]
+tests/test_slash_commands.py::TestDesafioNiveis::test_nivel_normalizado_sem_acento PASSED [ 62%]
+tests/test_slash_commands.py::TestDesafioNiveis::test_nivel_normalizado_intermediario_sem_acento PASSED [ 63%]
+tests/test_slash_commands.py::TestCertificadoJava::test_gerar_certificado_retorna_tupla PASSED [ 65%]
+tests/test_slash_commands.py::TestCertificadoJava::test_certificado_contem_nome_usuario PASSED [ 67%]
+tests/test_slash_commands.py::TestCertificadoJava::test_certificado_contem_tecnologia PASSED [ 68%]
+tests/test_slash_commands.py::TestCertificadoJava::test_certificado_contem_nome_formacao PASSED [ 70%]
+tests/test_slash_commands.py::TestCertificadoJava::test_certificado_contem_nivel PASSED [ 72%]
+tests/test_slash_commands.py::TestCertificadoJava::test_certificado_contem_xp PASSED [ 73%]
+tests/test_slash_commands.py::TestCertificadoJava::test_certificado_contem_badge_conclusao PASSED [ 75%]
+tests/test_slash_commands.py::TestCertificadoJava::test_certificado_contem_id PASSED [ 77%]
+tests/test_slash_commands.py::TestCertificadoJava::test_certificado_contem_data_atual PASSED [ 78%]
+tests/test_slash_commands.py::TestCertificadoJava::test_nome_arquivo_slug PASSED [ 80%]
+tests/test_slash_commands.py::TestCertificadoJava::test_certificado_contem_dio_link PASSED [ 81%]
+tests/test_slash_commands.py::TestCertificadoJava::test_certificado_contem_markdown_div PASSED [ 83%]
+tests/test_slash_commands.py::TestCertificadoJava::test_certificado_tecnologia_inexistente PASSED [ 85%]
+tests/test_slash_commands.py::TestCertificadoSalvar::test_salvar_certificado_cria_arquivo PASSED [ 86%]
+tests/test_slash_commands.py::TestCertificadoSalvar::test_salvar_certificado_retorna_path PASSED [ 88%]
+tests/test_slash_commands.py::TestCertificadoSalvar::test_salvar_cria_diretorio_se_inexistente PASSED [ 90%]
+tests/test_slash_commands.py::TestUtilitarios::test_slugify_simples PASSED [ 91%]
+tests/test_slash_commands.py::TestUtilitarios::test_slugify_maiusculas PASSED [ 93%]
+tests/test_slash_commands.py::TestUtilitarios::test_slugify_espacos_multiplos PASSED [ 95%]
+tests/test_slash_commands.py::TestUtilitarios::test_slugify_caracteres_especiais PASSED [ 96%]
+tests/test_slash_commands.py::TestUtilitarios::test_slugify_string_vazia PASSED [ 98%]
+tests/test_slash_commands.py::TestFluxoIntegracaoCarlosJava::test_fluxo_completo PASSED [100%]
+
+=============================== tests coverage ================================
+_______________ coverage: platform win32, python 3.11.9-final-0 _______________
+
+Name                            Stmts   Miss  Cover   Missing
+-------------------------------------------------------------
+tests\slash_commands_logic.py     101      2    98%   74, 122
+-------------------------------------------------------------
+TOTAL                             101      2    98%
+============================= 61 passed in 0.90s ==============================
+
